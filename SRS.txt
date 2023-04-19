@@ -1,0 +1,114 @@
+Document: System Requirement Specification Document
+
+Title: System Requirement Specification for Online Movie Booking Management System
+
+Team: Direct Customer, Indirect Customer, Architect, Business Analyst,
+
+Objectives:-
+The online movie booking management system to book movie
+tickets is intended to provide full facility to book tickets through online mode.
+ Provision of ease to customers to book the tickets through online mode is facilitated
+through this web application. 
+
+Scope:- 
+This system allows service provider to maintain their shows scheduling and booking information. Customer will be able to book the tickets before 2 days 
+and can cancel it before 2 hrs.
+
+Definitions:- 
+	OMBMS: Online Movie Booking Management System 
+	Rating: IMDB Rating
+	MIS: Management Information System 
+	CRM: Customer Relation Management 
+	BI: Business Intelligence
+	 
+	
+Requirements:
+
+Functional Requirements: 
+ 	Any anonymous user will be able to view different movie options available for 
+that specific week with multiple theatre options. According to customer's requirement 
+the customer could book the tickets.
+	All customers will be able to see different movie details available for watching any customers will be able to see details of any movie which is running in theatre.
+Theatre staff will be able to schedule movies at in theatres by updating movie names of the show.
+Staff will be able to approve or reject request for selected movie , seat , show , etc. selected by customer.Staff will be able to extend number of movie shows if movie is doing well.
+Anonymous customers can see all the movie shows available seats or screen also but at the time ticket booking they need to register first.Register customers can book any number available seats and also they can check price of ticket.Register number can choose theatre which are available near their location.Register customer can cancel their booked ticket 2hrs before show time to get 100% refund.
+Register customer are able to get transactions history. They can also get show details etc.
+Register customers can do their payment by online mode using upi and other payment gateways.
+Management staff are able to refund payment of Register customer if customer cancel their ticket before 2 hrs. of show time.
+
+Management staff have authority not to refund payment if Register customer not cancel ticket before 2 hrs. of show time.Register customer will get notified about movie details and transaction details via email and messages.Dashboard will provide list of latest movies, after selecting specific movie dashboard will provide information of available seats, IMDB rating.System and Technical team (IT Operations team) will be able monitor system operations by monitoring logs maintained.
+
+
+	 
+Non Functional Requirements:
+
+Security:
+Registered Customer will be allowed to book the tickets online. Each user allowed to 
+access system  through authentication process.
+System should enable users to book / pay for their tickets only in a timeboxed 
+manner after tickets being selected.
+System will redirect the anonymous user to the registration page before booking 
+ticket.
+System  will internally maintain secure communiction channel between Servers(Web servers,
+database server).Sensitive data will be always encrypted across 
+communcation.User proper firewall to protect servers from out side 
+fishing, velnerable attacks.
+
+Reliability:
+The system will backup business data on regular basis and recover in short time 
+duration to keep system operational Continous updates are matained, continous 
+Adminstration is done to keep system operational.
+During peak hours system will maintain same user experaince by managing load 
+balacning .
+
+Availability
+	uptime:   24* 7  available
+		
+
+Maintainability:
+A Commercial database software will be used to maintain System data Persistence.
+A readymade Web Server will be installed to host online shopping portal (Web Site) to management server capabilities.
+IT operations team will easily monitor and configure System using Adminstrative tools provided by Servers.
+Separate enviornment will be maintained for system for isolation in  production, testing, and development.
+
+
+Portability:
+ PDA: Portable Device Application
+System will provide portable User Interface 
+( HTML, CSS, JS) through  users will be able to access 
+online shopping portal.System can be deployed to single server, multi server, 
+to any OS, Cloud (Azure or AWS or GCP).
+
+Accessibility:
+only registered customer will be able to book tickets after authentication. Management 
+staff can reject or approve requests based on availability of tickets.
+BOD team will be able to view daily, weekly, monthly, annual businss Growth 
+through customized dashboard.
+Theater management will be able to see their booking history.
+
+Durability:
+System will retain customer booking information for 15 miutes even though 
+customer loose their internet connection.System will implement backup and 
+recovery for retaining stake holders data, bussiness operation data and 
+business data over time.
+
+Efficiency: 
+On holidays, the amount of booking will reach at maximum level.
+System will be be able to manage all transactions with isolation.  
+
+Modularity:
+System will designed and developed using reusable, independent or 
+dependent business senarios in the form of modules.
+These modules will be loosely coupled and highly cohesive.
+System will contain CRM, Movie Show Details, Ticket processing, Payment 
+Processing and Booking Details. 
+
+Scalability:
+System will be able  to  provide  consistent user exeprience to 
+users irrespective of load.
+
+Safety:
+Online Movie Booking Management System will be secure from malicious attack, fishing.
+Online Movie Booking Management System portal will be always kept updated 
+with latest anti virus software.
+ 

@@ -1,0 +1,26 @@
+1.	Display Web Page
+2.	Display Loaction 
+3.	Display Movies 
+4.	Login Page
+5.	Registration Page
+6.	Authentication Page 
+7.	Select Screen 
+8.	Display Shows 
+9.	Select Show Timings 
+10.	Select Seat 
+11.	Add Food And Bevarages
+12.	Food Options 
+13.	Select Food 
+14.	Display All Prices 
+15.	Display Total Prices
+16.	Select Payment 
+17.	Display Payment Options 
+18.	Select Payment Gateway
+19.	Display Payment Details
+20.	Display Successful Message 
+21.	Notify Customer With Booking Details 
+22.	Send Email
+23.	Display New Movie Options 
+24.	Display Continue Or Not
+25.	Display Log Out 
+26.	Display Webpage.
